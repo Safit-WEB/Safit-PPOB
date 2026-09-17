@@ -1,0 +1,29 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+body { background: #f4f6fa; color: #222; line-height: 1.5; }
+header { background: #1e40af; color: #fff; padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+header h1 { font-size: 17px; }
+header nav a { color: #fff; text-decoration: none; margin-left: 12px; font-size: 14px; }
+main { padding: 16px; max-width: 720px; margin: 0 auto; }
+.card { background: #fff; padding: 18px; border-radius: 12px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+.card h2 { font-size: 17px; margin-bottom: 12px; }
+input, select { width: 100%; padding: 11px; border: 1px solid #d1d5db; border-radius: 8px; margin-bottom: 10px; font-size: 15px; background: #fff; }
+.btn-primary { display: inline-block; width: 100%; background: #1e40af; color: #fff; padding: 12px; border-radius: 8px; border: none; font-size: 15px; cursor: pointer; text-align: center; text-decoration: none; }
+.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 9px 6px; border-bottom: 1px solid #eee; text-align: left; }
+.badge { padding: 3px 9px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+.badge.pending { background: #fef3c7; color: #92400e; }
+.badge.paid    { background: #dbeafe; color: #1e40af; }
+.badge.sukses  { background: #d1fae5; color: #065f46; }
+.badge.gagal   { background: #fee2e2; color: #991b1b; }
+.auth { display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 16px; }
+.auth .card { width: 100%; max-width: 380px; }
+.error   { color: #dc2626; margin-bottom: 10px; font-size: 14px; }
+.success { color: #059669; margin-bottom: 10px; font-size: 14px; }
+.hero { text-align: center; padding: 40px 16px; }
+.hero h2 { font-size: 24px; margin-bottom: 10px; }
+.hero p { color: #555; margin-bottom: 20px; }
+.fitur { display: grid; gap: 12px; margin-top: 24px; }
+.fitur div { background: #fff; padding: 18px; border-radius: 12px; text-align: center; font-size: 14px; }
+footer { text-align: center; padding: 24px; color: #888; font-size: 12px; }
+@media (min-width: 600px) { .fitur { grid-template-columns: repeat(3, 1fr); } }
